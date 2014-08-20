@@ -1,0 +1,7 @@
+.classpath
+.DS_Store
+.project
+org.eclipse.jdt.core.prefs
+/settings
+/target
+.class
