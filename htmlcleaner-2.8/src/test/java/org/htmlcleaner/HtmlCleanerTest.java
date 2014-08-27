@@ -4,6 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.Serializer;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
 import org.junit.Test;
 
 public class HtmlCleanerTest extends AbstractHtmlCleanerTest {

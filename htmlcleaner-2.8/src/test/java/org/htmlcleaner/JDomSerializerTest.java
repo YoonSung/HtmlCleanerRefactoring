@@ -36,6 +36,8 @@ import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.JDomSerializer;
 import org.jdom2.Document;
 import org.jdom2.Namespace;
 import org.junit.Test;

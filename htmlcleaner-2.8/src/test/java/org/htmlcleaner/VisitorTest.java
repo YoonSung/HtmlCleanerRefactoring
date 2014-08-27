@@ -3,6 +3,13 @@ package org.htmlcleaner;
 import java.io.File;
 import java.io.IOException;
 
+import org.htmlcleaner.exception.XPatherException;
+import org.htmlcleaner.node.CommentNode;
+import org.htmlcleaner.node.ContentNode;
+import org.htmlcleaner.node.HtmlNode;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.node.TagNodeVisitor;
+
 import junit.framework.TestCase;
 
 /**

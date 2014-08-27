@@ -37,6 +37,11 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.IOException;
 
+import org.htmlcleaner.node.CData;
+import org.htmlcleaner.node.ContentNode;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.SimpleHtmlSerializer;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
 import org.junit.Ignore;
 import org.junit.Test;
 

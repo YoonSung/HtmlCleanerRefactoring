@@ -2,6 +2,8 @@ package org.htmlcleaner;
 
 import java.io.*;
 
+import org.htmlcleaner.serializer.BrowserCompactXmlSerializer;
+
 import junit.framework.*;
 
 /**

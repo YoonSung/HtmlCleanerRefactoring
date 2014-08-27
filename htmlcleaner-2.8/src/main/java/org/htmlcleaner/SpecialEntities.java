@@ -40,6 +40,8 @@ package org.htmlcleaner;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.htmlcleaner.exception.HtmlCleanerException;
+
 /**
  * <p>This class contains map with special entities used in HTML and their
  * unicodes.</p>

@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.io.File;
 import java.util.regex.Pattern;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.CompactXmlSerializer;
+import org.htmlcleaner.serializer.PrettyXmlSerializer;
+
 /**
  * Testing tag transformations.
  */

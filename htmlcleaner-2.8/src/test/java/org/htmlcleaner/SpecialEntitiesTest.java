@@ -36,6 +36,7 @@ import static org.junit.Assert.fail;
 
 import java.io.IOException;
 
+import org.htmlcleaner.serializer.SimpleHtmlSerializer;
 import org.junit.Test;
 
 public class SpecialEntitiesTest extends AbstractHtmlCleanerTest {

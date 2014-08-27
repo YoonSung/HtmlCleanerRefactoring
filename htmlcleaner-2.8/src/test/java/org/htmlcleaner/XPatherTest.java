@@ -4,6 +4,9 @@ import junit.framework.TestCase;
 
 import java.io.File;
 
+import org.htmlcleaner.exception.XPatherException;
+import org.htmlcleaner.node.TagNode;
+
 /**
  * Testing XPath expressions against TagNodes results from cleaning process.
  */

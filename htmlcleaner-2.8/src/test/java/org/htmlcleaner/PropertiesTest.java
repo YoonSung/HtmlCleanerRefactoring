@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.regex.Matcher;
 
+import org.htmlcleaner.node.CData;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
+
 import junit.framework.TestCase;
 
 /**

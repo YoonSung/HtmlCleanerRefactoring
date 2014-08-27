@@ -40,6 +40,17 @@ package org.htmlcleaner;
 import java.io.*;
 import java.util.*;
 
+import org.htmlcleaner.node.CData;
+import org.htmlcleaner.node.CommentNode;
+import org.htmlcleaner.node.ContentNode;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.taginfo.ITagInfoProvider;
+import org.htmlcleaner.taginfo.TagInfo;
+import org.htmlcleaner.token.BaseToken;
+import org.htmlcleaner.token.DoctypeToken;
+import org.htmlcleaner.token.EndTagToken;
+import org.htmlcleaner.token.TagToken;
+
 /**
  * Main HTML tokenizer.
  * <p>It's task is to parse HTML and produce list of valid tokens:

@@ -4,6 +4,10 @@ import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.CompactXmlSerializer;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
+
 /**
  * Testing HtmlCleaner constructors.
  */

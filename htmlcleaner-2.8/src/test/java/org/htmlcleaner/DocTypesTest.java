@@ -45,6 +45,10 @@ import java.io.IOException;
 
 import javax.xml.parsers.ParserConfigurationException;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.DomSerializer;
+import org.htmlcleaner.serializer.SimpleHtmlSerializer;
+import org.htmlcleaner.token.DoctypeToken;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.w3c.dom.Document;

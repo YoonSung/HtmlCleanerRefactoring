@@ -40,7 +40,8 @@ import java.util.Stack;
 import java.util.TreeSet;
 
 import org.htmlcleaner.HtmlCleaner.NestingState;
-import org.htmlcleaner.conditional.ITagNodeCondition;
+import org.htmlcleaner.node.ITagNodeCondition;
+import org.htmlcleaner.node.TagNode;
 
 /**
  * This class is for thread-safe handling of private instance variables from HtmlCleaner

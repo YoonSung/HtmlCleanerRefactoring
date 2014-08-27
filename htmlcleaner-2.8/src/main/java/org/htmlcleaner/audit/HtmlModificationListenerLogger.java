@@ -2,8 +2,9 @@ package org.htmlcleaner.audit;
 
 import java.util.logging.Logger;
 
-import org.htmlcleaner.TagNode;
-import org.htmlcleaner.conditional.ITagNodeCondition;
+import org.htmlcleaner.constant.ErrorType;
+import org.htmlcleaner.node.ITagNodeCondition;
+import org.htmlcleaner.node.TagNode;
 
 public class HtmlModificationListenerLogger implements HtmlModificationListener {
 

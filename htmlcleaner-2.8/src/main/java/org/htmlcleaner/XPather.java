@@ -44,6 +44,9 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.StringTokenizer;
 
+import org.htmlcleaner.exception.XPatherException;
+import org.htmlcleaner.node.TagNode;
+
 /**
  * <p>Utility for searching cleaned document tree with XPath expressions.</p>
  * Examples of supported axes:

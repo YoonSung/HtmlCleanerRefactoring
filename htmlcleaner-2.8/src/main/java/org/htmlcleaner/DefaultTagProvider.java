@@ -40,6 +40,13 @@ package org.htmlcleaner;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
+import org.htmlcleaner.constant.BelongsTo;
+import org.htmlcleaner.constant.CloseTag;
+import org.htmlcleaner.constant.ContentType;
+import org.htmlcleaner.constant.Display;
+import org.htmlcleaner.taginfo.ITagInfoProvider;
+import org.htmlcleaner.taginfo.TagInfo;
+
 /**
  * This is the default tag provider for HTML Cleaner
  * Note this is no longer generated from XML - see https://sourceforge.net/p/htmlcleaner/bugs/81/

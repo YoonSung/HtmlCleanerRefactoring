@@ -38,6 +38,12 @@
 package org.htmlcleaner;
 
 import org.apache.tools.ant.BuildException;
+import org.htmlcleaner.exception.XPatherException;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.BrowserCompactXmlSerializer;
+import org.htmlcleaner.serializer.CompactXmlSerializer;
+import org.htmlcleaner.serializer.PrettyXmlSerializer;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
 
 import java.net.URL;
 import java.io.File;

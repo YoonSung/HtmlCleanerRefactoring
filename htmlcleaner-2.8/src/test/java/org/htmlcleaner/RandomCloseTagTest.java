@@ -2,6 +2,9 @@ package org.htmlcleaner;
 
 import java.io.IOException;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
+
 import junit.framework.TestCase;
 
 /**

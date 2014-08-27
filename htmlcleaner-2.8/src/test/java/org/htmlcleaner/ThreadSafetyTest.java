@@ -40,12 +40,14 @@ import java.util.List;
 import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import junit.framework.TestCase;
+
 import org.htmlcleaner.CleanerProperties;
 import org.htmlcleaner.HtmlCleaner;
-import org.htmlcleaner.Serializer;
-import org.htmlcleaner.SimpleHtmlSerializer;
-import org.htmlcleaner.TagNode;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.Serializer;
+import org.htmlcleaner.serializer.SimpleHtmlSerializer;
 
 /**
  * Test case for determining whether HtmlCleaner is thread-safe.

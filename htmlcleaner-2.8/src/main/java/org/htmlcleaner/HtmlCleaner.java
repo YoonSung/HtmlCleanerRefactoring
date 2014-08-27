@@ -54,8 +54,18 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
-import org.htmlcleaner.audit.ErrorType;
-import org.htmlcleaner.conditional.ITagNodeCondition;
+import org.htmlcleaner.constant.ErrorType;
+import org.htmlcleaner.exception.HtmlCleanerException;
+import org.htmlcleaner.node.CommentNode;
+import org.htmlcleaner.node.ContentNode;
+import org.htmlcleaner.node.ITagNodeCondition;
+import org.htmlcleaner.node.ProxyTagNode;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
+import org.htmlcleaner.taginfo.ITagInfoProvider;
+import org.htmlcleaner.taginfo.TagInfo;
+import org.htmlcleaner.token.BaseToken;
+import org.htmlcleaner.token.EndTagToken;
 
 /**
  * Main HtmlCleaner class.

@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.SimpleHtmlSerializer;
 import org.junit.Test;
 
 /**

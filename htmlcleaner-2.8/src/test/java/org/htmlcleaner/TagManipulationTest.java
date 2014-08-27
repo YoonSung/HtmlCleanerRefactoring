@@ -5,6 +5,11 @@ import junit.framework.TestCase;
 import java.io.File;
 import java.io.IOException;
 
+import org.htmlcleaner.exception.XPatherException;
+import org.htmlcleaner.node.ContentNode;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.CompactXmlSerializer;
+
 /**
  * Testing node manipulation after cleaning.
  */

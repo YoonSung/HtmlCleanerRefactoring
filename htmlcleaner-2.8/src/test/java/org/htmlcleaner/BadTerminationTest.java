@@ -1,5 +1,7 @@
 package org.htmlcleaner;
 
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
+
 import junit.framework.TestCase;
 
 /**

@@ -2,8 +2,10 @@ package org.htmlcleaner;
 
 import java.io.IOException;
 
-import org.htmlcleaner.conditional.TagNodeEmptyContentCondition;
-import org.htmlcleaner.conditional.TagNodeInsignificantBrCondition;
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.node.TagNodeEmptyContentCondition;
+import org.htmlcleaner.node.TagNodeInsignificantBrCondition;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
 
 import junit.framework.TestCase;
 

@@ -40,6 +40,11 @@ package org.htmlcleaner;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.CompactXmlSerializer;
+import org.htmlcleaner.serializer.Serializer;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
+import org.htmlcleaner.token.DoctypeToken;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

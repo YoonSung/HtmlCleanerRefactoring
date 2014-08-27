@@ -38,6 +38,8 @@ import static org.junit.Assert.assertNotNull;
 
 import java.io.IOException;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.DomSerializer;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.w3c.dom.Document;

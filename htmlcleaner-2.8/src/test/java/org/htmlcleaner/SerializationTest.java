@@ -5,6 +5,12 @@ import junit.framework.TestCase;
 import java.io.IOException;
 import java.io.File;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.CompactXmlSerializer;
+import org.htmlcleaner.serializer.DomSerializer;
+import org.htmlcleaner.serializer.JDomSerializer;
+import org.htmlcleaner.serializer.PrettyXmlSerializer;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
 import org.junit.Test;
 import org.w3c.dom.Document;
 

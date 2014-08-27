@@ -36,6 +36,9 @@ import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 
+import org.htmlcleaner.node.TagNode;
+import org.htmlcleaner.serializer.Serializer;
+import org.htmlcleaner.serializer.SimpleXmlSerializer;
 import org.junit.Assert;
 import org.junit.Before;
 
